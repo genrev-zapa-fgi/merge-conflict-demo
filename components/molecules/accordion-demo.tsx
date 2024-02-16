@@ -22,7 +22,7 @@ export function AccordionDemo() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-                <AccordionTrigger className={"underline"}>Is it animated?</AccordionTrigger>
+                <AccordionTrigger className={""}>Is it animated?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It's animated by default, but you can disable it if you prefer.
                 </AccordionContent>
