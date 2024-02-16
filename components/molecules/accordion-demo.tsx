@@ -15,7 +15,7 @@ export function AccordionDemo() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger className={"font-bold"}>Is it styled?</AccordionTrigger>
+                <AccordionTrigger className={"font-light"}>Is it styled?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It comes with default styles that matches the other
                     components&apos; aesthetic.
