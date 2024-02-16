@@ -9,13 +9,13 @@ export function AccordionDemo() {
     return (
         <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-                <AccordionTrigger className={"text-red-400"}>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger className={"text-blue-400"}>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger className={"font-bold"}>Is it styled?</AccordionTrigger>
+                <AccordionTrigger className={"font-light"}>Is it styled?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It comes with default styles that matches the other
                     components&apos; aesthetic.
