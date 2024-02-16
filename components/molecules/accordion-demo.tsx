@@ -9,7 +9,7 @@ export function AccordionDemo() {
     return (
         <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-                <AccordionTrigger className={"text-blue-400"}>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger className={"text-pink-400"}>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>
@@ -22,7 +22,7 @@ export function AccordionDemo() {
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-                <AccordionTrigger className={"underline"}>Is it animated?</AccordionTrigger>
+                <AccordionTrigger className={""}>Is it animated?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It's animated by default, but you can disable it if you prefer.
                 </AccordionContent>
